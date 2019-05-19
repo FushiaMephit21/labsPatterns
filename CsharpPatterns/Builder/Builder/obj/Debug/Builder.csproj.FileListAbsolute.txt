@@ -1,0 +1,6 @@
+E:\LEARN\CsharpPatterns\Builder\Builder\bin\Debug\Builder.exe.config
+E:\LEARN\CsharpPatterns\Builder\Builder\bin\Debug\Builder.exe
+E:\LEARN\CsharpPatterns\Builder\Builder\bin\Debug\Builder.pdb
+E:\LEARN\CsharpPatterns\Builder\Builder\obj\Debug\Builder.exe
+E:\LEARN\CsharpPatterns\Builder\Builder\obj\Debug\Builder.pdb
+E:\LEARN\CsharpPatterns\Builder\Builder\obj\Debug\Builder.csprojResolveAssemblyReference.cache

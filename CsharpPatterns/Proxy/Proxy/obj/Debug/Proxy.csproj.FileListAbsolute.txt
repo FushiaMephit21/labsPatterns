@@ -1,0 +1,6 @@
+E:\LEARN\CsharpPatterns\Proxy\Proxy\bin\Debug\Proxy.exe.config
+E:\LEARN\CsharpPatterns\Proxy\Proxy\bin\Debug\Proxy.exe
+E:\LEARN\CsharpPatterns\Proxy\Proxy\bin\Debug\Proxy.pdb
+E:\LEARN\CsharpPatterns\Proxy\Proxy\obj\Debug\Proxy.csprojResolveAssemblyReference.cache
+E:\LEARN\CsharpPatterns\Proxy\Proxy\obj\Debug\Proxy.exe
+E:\LEARN\CsharpPatterns\Proxy\Proxy\obj\Debug\Proxy.pdb

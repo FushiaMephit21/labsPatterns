@@ -1,0 +1,5 @@
+E:\LEARN\CsharpPatterns\Adapter\Adapter\bin\Debug\Adapter.exe.config
+E:\LEARN\CsharpPatterns\Adapter\Adapter\bin\Debug\Adapter.exe
+E:\LEARN\CsharpPatterns\Adapter\Adapter\bin\Debug\Adapter.pdb
+E:\LEARN\CsharpPatterns\Adapter\Adapter\obj\Debug\Adapter.exe
+E:\LEARN\CsharpPatterns\Adapter\Adapter\obj\Debug\Adapter.pdb

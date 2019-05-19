@@ -1,0 +1,6 @@
+E:\LEARN\CsharpPatterns\AbstractFabric\AbstractFabric\bin\Debug\AbstractFabric.exe.config
+E:\LEARN\CsharpPatterns\AbstractFabric\AbstractFabric\bin\Debug\AbstractFabric.exe
+E:\LEARN\CsharpPatterns\AbstractFabric\AbstractFabric\bin\Debug\AbstractFabric.pdb
+E:\LEARN\CsharpPatterns\AbstractFabric\AbstractFabric\obj\Debug\AbstractFabric.csprojResolveAssemblyReference.cache
+E:\LEARN\CsharpPatterns\AbstractFabric\AbstractFabric\obj\Debug\AbstractFabric.exe
+E:\LEARN\CsharpPatterns\AbstractFabric\AbstractFabric\obj\Debug\AbstractFabric.pdb

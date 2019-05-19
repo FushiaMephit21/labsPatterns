@@ -1,0 +1,5 @@
+E:\LEARN\CsharpPatterns\CommandApp\CommandApp\bin\Debug\CommandApp.exe.config
+E:\LEARN\CsharpPatterns\CommandApp\CommandApp\bin\Debug\CommandApp.exe
+E:\LEARN\CsharpPatterns\CommandApp\CommandApp\bin\Debug\CommandApp.pdb
+E:\LEARN\CsharpPatterns\CommandApp\CommandApp\obj\Debug\CommandApp.exe
+E:\LEARN\CsharpPatterns\CommandApp\CommandApp\obj\Debug\CommandApp.pdb

@@ -1,0 +1,6 @@
+E:\LEARN\CsharpPatterns\FabricMethod\FabricMethod\FabricMethod\bin\Debug\FabricMethod.exe.config
+E:\LEARN\CsharpPatterns\FabricMethod\FabricMethod\FabricMethod\bin\Debug\FabricMethod.exe
+E:\LEARN\CsharpPatterns\FabricMethod\FabricMethod\FabricMethod\bin\Debug\FabricMethod.pdb
+E:\LEARN\CsharpPatterns\FabricMethod\FabricMethod\FabricMethod\obj\Debug\FabricMethod.csprojResolveAssemblyReference.cache
+E:\LEARN\CsharpPatterns\FabricMethod\FabricMethod\FabricMethod\obj\Debug\FabricMethod.exe
+E:\LEARN\CsharpPatterns\FabricMethod\FabricMethod\FabricMethod\obj\Debug\FabricMethod.pdb

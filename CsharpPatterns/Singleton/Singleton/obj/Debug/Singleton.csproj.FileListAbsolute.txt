@@ -1,0 +1,2 @@
+E:\LEARN\CsharpPatterns\Singleton\Singleton\bin\Debug\Singleton.exe.config
+E:\LEARN\CsharpPatterns\Singleton\Singleton\obj\Debug\Singleton.csprojResolveAssemblyReference.cache
