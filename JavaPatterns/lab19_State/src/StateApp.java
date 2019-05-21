@@ -7,24 +7,25 @@ public class StateApp {
         radio.nextStation();
         radio.play();
     }
+}
 
     interface Station {
         void play();
     }
 
-    static class Radio7 implements Station {
+    class Radio7 implements Station {
         public void play() {
             System.out.println("Радио 7...");
         }
     }
 
-    static class RadioDFM implements Station {
+    class RadioDFM implements Station {
         public void play() {
             System.out.println("Радио DFM...");
         }
     }
 
-    static class VestiFM implements Station {
+    class VestiFM implements Station {
         public void play() {
             System.out.println("Вести FM...");
         }
@@ -32,7 +33,7 @@ public class StateApp {
 
 
     //Context
-    static class Radio{
+    class Radio{
         Station station;
         void setStation(Station st) {station = st;}
         void nextStation(){
@@ -50,4 +51,3 @@ public class StateApp {
             station.play();
         }
     }
-}

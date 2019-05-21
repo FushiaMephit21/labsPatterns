@@ -1,10 +1,11 @@
 public class StrategyApp {
-    public void main(String[] args) {
+    public static void main(String[] args) {
         StrategyClient c = new StrategyClient();
         c.setStrategy(new StrategyA());
-        
+
         //doSomething...
     }
+}
 
     // Context
     class StrategyClient {
@@ -25,4 +26,3 @@ public class StrategyApp {
 
         }
     }
-}
