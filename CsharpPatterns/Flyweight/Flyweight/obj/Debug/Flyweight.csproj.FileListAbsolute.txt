@@ -1,1 +1,0 @@
-E:\LEARN\CsharpPatterns\Flyweight\Flyweight\bin\Debug\Flyweight.exe.config

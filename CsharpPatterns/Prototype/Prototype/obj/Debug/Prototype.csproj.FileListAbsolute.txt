@@ -1,6 +1,0 @@
-E:\LEARN\CsharpPatterns\Prototype\Prototype\bin\Debug\Prototype.exe.config
-E:\LEARN\CsharpPatterns\Prototype\Prototype\bin\Debug\Prototype.exe
-E:\LEARN\CsharpPatterns\Prototype\Prototype\bin\Debug\Prototype.pdb
-E:\LEARN\CsharpPatterns\Prototype\Prototype\obj\Debug\Prototype.exe
-E:\LEARN\CsharpPatterns\Prototype\Prototype\obj\Debug\Prototype.pdb
-E:\LEARN\CsharpPatterns\Prototype\Prototype\obj\Debug\Prototype.csprojResolveAssemblyReference.cache

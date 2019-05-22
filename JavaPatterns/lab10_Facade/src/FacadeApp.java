@@ -45,7 +45,7 @@ class PlayVideo {
             System.out.println("Відбувається відтворення реклами");
         }
         else {
-            System.out.println("Потрібно завантажити реклами");
+            System.out.println("Потрібно завантажити рекламу");
         }
     }
 }

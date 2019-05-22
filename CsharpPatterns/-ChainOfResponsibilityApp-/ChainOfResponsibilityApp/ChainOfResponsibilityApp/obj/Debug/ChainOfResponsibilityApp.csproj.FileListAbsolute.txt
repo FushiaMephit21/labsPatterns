@@ -1,6 +1,0 @@
-E:\LEARN\CsharpPatterns\ChainOfResponsibilityApp\ChainOfResponsibilityApp\bin\Debug\ChainOfResponsibilityApp.exe.config
-E:\LEARN\CsharpPatterns\ChainOfResponsibilityApp\ChainOfResponsibilityApp\bin\Debug\ChainOfResponsibilityApp.exe
-E:\LEARN\CsharpPatterns\ChainOfResponsibilityApp\ChainOfResponsibilityApp\bin\Debug\ChainOfResponsibilityApp.pdb
-E:\LEARN\CsharpPatterns\ChainOfResponsibilityApp\ChainOfResponsibilityApp\obj\Debug\ChainOfResponsibilityApp.exe
-E:\LEARN\CsharpPatterns\ChainOfResponsibilityApp\ChainOfResponsibilityApp\obj\Debug\ChainOfResponsibilityApp.pdb
-E:\LEARN\CsharpPatterns\ChainOfResponsibilityApp\ChainOfResponsibilityApp\obj\Debug\ChainOfResponsibilityApp.csprojResolveAssemblyReference.cache

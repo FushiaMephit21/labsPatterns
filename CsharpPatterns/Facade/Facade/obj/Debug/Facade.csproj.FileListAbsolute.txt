@@ -1,6 +1,0 @@
-E:\LEARN\CsharpPatterns\Facade\Facade\bin\Debug\Facade.exe.config
-E:\LEARN\CsharpPatterns\Facade\Facade\bin\Debug\Facade.exe
-E:\LEARN\CsharpPatterns\Facade\Facade\bin\Debug\Facade.pdb
-E:\LEARN\CsharpPatterns\Facade\Facade\obj\Debug\Facade.csprojResolveAssemblyReference.cache
-E:\LEARN\CsharpPatterns\Facade\Facade\obj\Debug\Facade.exe
-E:\LEARN\CsharpPatterns\Facade\Facade\obj\Debug\Facade.pdb
