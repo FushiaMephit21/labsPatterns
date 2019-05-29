@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9ccf3657-a7af-4da4-9463-bb73fbefa9ab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../lab13_ChainOfResponsibility/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab22_Visitor/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab22_Visitor/src/VisitorApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab5_Composite/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab10_Facade/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab10_Facade/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab10_Facade/src/FacadeApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab10_Facade/src/FacadeApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab11_Flyweight/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab11_Flyweight/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab12_Proxy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab12_Proxy/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab13_ChainOfResponsibility/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab13_ChainOfResponsibility/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab19_State/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab19_State/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab3_Builder/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3_Builder/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab4_Prototype/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab4_Prototype/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab5_Composite/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab5_Composite/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab6_Singleton/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab6_Singleton/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab7_Adapter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab7_Adapter/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab8_Bridge/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab8_Bridge/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab9_Wrapper/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab9_Wrapper/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="9ccf3657-a7af-4da4-9463-bb73fbefa9ab" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,9 +43,9 @@
     <session id="-409417724">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
     </session>
@@ -74,8 +55,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/CommandApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="41" column="20" lean-forward="true" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
+            <state relative-caret-position="238">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="e#462#463#0" expanded="true" />
+                <element signature="e#505#506#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -116,6 +101,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -128,14 +114,13 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557336612953" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lab15_Iterator" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -179,14 +164,15 @@
       <workItem from="1556771248296" duration="26000" />
       <workItem from="1557328213911" duration="1460000" />
       <workItem from="1558550686023" duration="31000" />
+      <workItem from="1559153555928" duration="577000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2760000" />
+    <option name="totallyTimeSpent" value="3337000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.37417942" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -214,7 +200,7 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Database" order="5" />
       <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="right" id="Mongo Explorer" order="7" />
+      <window_info anchor="right" id="Mongo Explorer" order="7" weight="0.32932165" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Maven Projects" order="9" />
     </layout>
@@ -228,8 +214,12 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/CommandApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="41" column="20" lean-forward="true" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#462#463#0" expanded="true" />
+            <element signature="e#505#506#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
