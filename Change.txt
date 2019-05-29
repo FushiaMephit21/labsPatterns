@@ -1,5 +1,4 @@
 Java
-	- lab 13: Chain of Responsibility
 	- lab 14: Command
 	- lab 15: Iterator
 	- lab 16: Mediator

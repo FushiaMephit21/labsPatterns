@@ -2,23 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42dad985-e02f-42ac-ba39-2ec08b4e1c6d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab22_Visitor/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab22_Visitor/src/VisitorApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab5_Composite/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab10_Facade/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab10_Facade/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab10_Facade/src/FacadeApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab10_Facade/src/FacadeApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../lab11_Flyweight/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab11_Flyweight/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab12_Proxy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab12_Proxy/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab19_State/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab19_State/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab3_Builder/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3_Builder/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab4_Prototype/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab4_Prototype/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab5_Composite/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab5_Composite/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab6_Singleton/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab6_Singleton/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab7_Adapter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab7_Adapter/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab8_Bridge/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab8_Bridge/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab9_Wrapper/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab9_Wrapper/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab13_ChainOfResponsibility/ChainOfResponsibilityApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab13_ChainOfResponsibility/ChainOfResponsibilityApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab13_ChainOfResponsibility/Level.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab13_ChainOfResponsibility/Level.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab13_ChainOfResponsibility/Logger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab13_ChainOfResponsibility/SMSLogger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChainOfResponsibilityApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChainOfResponsibilityApp.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -62,9 +53,19 @@
     <session id="-1334004296">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="949" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="949" />
         </counts>
       </usages-collector>
     </session>
@@ -74,8 +75,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ChainOfResponsibilityApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state>
+              <caret column="38" selection-start-column="38" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -88,6 +89,17 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Person</find>
+      <find>person</find>
+      <find>priority</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>User</replace>
+      <replace>accessLevel</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -106,8 +118,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="953" />
-    <option name="width" value="974" />
+    <option name="x" value="-7" />
+    <option name="width" value="970" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -132,14 +144,14 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556771191196" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559153541836" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../lab14_Command" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -185,16 +197,17 @@
       <workItem from="1556771185730" duration="61000" />
       <workItem from="1557327999712" duration="213000" />
       <workItem from="1558550648392" duration="37000" />
+      <workItem from="1559149835155" duration="3259000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="885000" />
+    <option name="totallyTimeSpent" value="4144000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="-7" y="0" width="970" height="1047" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.37417942" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.18131869" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -215,7 +228,7 @@
       <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24945055" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
@@ -234,8 +247,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/ChainOfResponsibilityApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state>
+          <caret column="38" selection-start-column="38" selection-end-column="38" />
         </state>
       </provider>
     </entry>
