@@ -2,303 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3aea48ec-0af4-475e-9b49-49f595d4d1c4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../lab13_ChainOfResponsibility/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab14_Command/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab15_Iterator/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab17_Memento/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab18_Observer/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab22_Visitor/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab22_Visitor/src/VisitorApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab5_Composite/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/-ChainOfResponsibilityApp-/ChainOfResponsibilityApp/.vs/ChainOfResponsibilityApp/v14/.suo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/-ChainOfResponsibilityApp-/ChainOfResponsibilityApp/ChainOfResponsibilityApp.sln" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/-ChainOfResponsibilityApp-/ChainOfResponsibilityApp/ChainOfResponsibilityApp/App.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/-ChainOfResponsibilityApp-/ChainOfResponsibilityApp/ChainOfResponsibilityApp/ChainOfResponsibilityApp.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/-ChainOfResponsibilityApp-/ChainOfResponsibilityApp/ChainOfResponsibilityApp/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/-ChainOfResponsibilityApp-/ChainOfResponsibilityApp/ChainOfResponsibilityApp/Properties/AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/-ChainOfResponsibilityApp-/ChainOfResponsibilityApp/ChainOfResponsibilityApp/bin/Debug/ChainOfResponsibilityApp.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/-ChainOfResponsibilityApp-/ChainOfResponsibilityApp/ChainOfResponsibilityApp/bin/Debug/ChainOfResponsibilityApp.exe.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/-ChainOfResponsibilityApp-/ChainOfResponsibilityApp/ChainOfResponsibilityApp/bin/Debug/ChainOfResponsibilityApp.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/-ChainOfResponsibilityApp-/ChainOfResponsibilityApp/ChainOfResponsibilityApp/bin/Debug/ChainOfResponsibilityApp.vshost.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/-ChainOfResponsibilityApp-/ChainOfResponsibilityApp/ChainOfResponsibilityApp/bin/Debug/ChainOfResponsibilityApp.vshost.exe.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/-ChainOfResponsibilityApp-/ChainOfResponsibilityApp/ChainOfResponsibilityApp/bin/Debug/ChainOfResponsibilityApp.vshost.exe.manifest" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/-ChainOfResponsibilityApp-/ChainOfResponsibilityApp/ChainOfResponsibilityApp/obj/Debug/ChainOfResponsibilityApp.csproj.FileListAbsolute.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/-ChainOfResponsibilityApp-/ChainOfResponsibilityApp/ChainOfResponsibilityApp/obj/Debug/ChainOfResponsibilityApp.csprojResolveAssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/-ChainOfResponsibilityApp-/ChainOfResponsibilityApp/ChainOfResponsibilityApp/obj/Debug/ChainOfResponsibilityApp.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/-ChainOfResponsibilityApp-/ChainOfResponsibilityApp/ChainOfResponsibilityApp/obj/Debug/ChainOfResponsibilityApp.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/-ChainOfResponsibilityApp-/ChainOfResponsibilityApp/ChainOfResponsibilityApp/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/-ChainOfResponsibilityApp-/ChainOfResponsibilityApp/ChainOfResponsibilityApp/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/-ChainOfResponsibilityApp-/ChainOfResponsibilityApp/ChainOfResponsibilityApp/obj/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/-ChainOfResponsibilityApp-/ChainOfResponsibilityApp/ChainOfResponsibilityApp/obj/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/AbstractFabric/.vs/AbstractFabric/v14/.suo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/AbstractFabric/AbstractFabric.sln" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/AbstractFabric/AbstractFabric/AbstractFabric.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/AbstractFabric/AbstractFabric/App.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/AbstractFabric/AbstractFabric/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/AbstractFabric/AbstractFabric/Properties/AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/AbstractFabric/AbstractFabric/bin/Debug/AbstractFabric.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/AbstractFabric/AbstractFabric/bin/Debug/AbstractFabric.exe.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/AbstractFabric/AbstractFabric/bin/Debug/AbstractFabric.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/AbstractFabric/AbstractFabric/bin/Debug/AbstractFabric.vshost.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/AbstractFabric/AbstractFabric/bin/Debug/AbstractFabric.vshost.exe.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/AbstractFabric/AbstractFabric/bin/Debug/AbstractFabric.vshost.exe.manifest" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/AbstractFabric/AbstractFabric/obj/Debug/AbstractFabric.csproj.FileListAbsolute.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/AbstractFabric/AbstractFabric/obj/Debug/AbstractFabric.csprojResolveAssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/AbstractFabric/AbstractFabric/obj/Debug/AbstractFabric.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/AbstractFabric/AbstractFabric/obj/Debug/AbstractFabric.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/AbstractFabric/AbstractFabric/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/AbstractFabric/AbstractFabric/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/AbstractFabric/AbstractFabric/obj/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/AbstractFabric/AbstractFabric/obj/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Adapter/.vs/Adapter/v14/.suo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Adapter/Adapter.sln" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Adapter/Adapter/Adapter.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Adapter/Adapter/App.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Adapter/Adapter/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Adapter/Adapter/Properties/AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Adapter/Adapter/bin/Debug/Adapter.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Adapter/Adapter/bin/Debug/Adapter.exe.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Adapter/Adapter/bin/Debug/Adapter.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Adapter/Adapter/bin/Debug/Adapter.vshost.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Adapter/Adapter/bin/Debug/Adapter.vshost.exe.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Adapter/Adapter/bin/Debug/Adapter.vshost.exe.manifest" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Adapter/Adapter/obj/Debug/Adapter.csproj.FileListAbsolute.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Adapter/Adapter/obj/Debug/Adapter.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Adapter/Adapter/obj/Debug/Adapter.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Adapter/Adapter/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Adapter/Adapter/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Adapter/Adapter/obj/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Adapter/Adapter/obj/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Bridge/.vs/Bridge/v14/.suo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Bridge/Bridge.sln" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Bridge/Bridge/App.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Bridge/Bridge/Bridge.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Bridge/Bridge/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Bridge/Bridge/Properties/AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Bridge/Bridge/bin/Debug/Bridge.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Bridge/Bridge/bin/Debug/Bridge.exe.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Bridge/Bridge/bin/Debug/Bridge.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Bridge/Bridge/bin/Debug/Bridge.vshost.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Bridge/Bridge/bin/Debug/Bridge.vshost.exe.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Bridge/Bridge/bin/Debug/Bridge.vshost.exe.manifest" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Bridge/Bridge/obj/Debug/Bridge.csproj.FileListAbsolute.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Bridge/Bridge/obj/Debug/Bridge.csprojResolveAssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Bridge/Bridge/obj/Debug/Bridge.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Bridge/Bridge/obj/Debug/Bridge.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Bridge/Bridge/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Bridge/Bridge/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Bridge/Bridge/obj/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Bridge/Bridge/obj/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Builder/.vs/Builder/v14/.suo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Builder/Builder.sln" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Builder/Builder/App.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Builder/Builder/Builder.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Builder/Builder/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Builder/Builder/Properties/AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Builder/Builder/bin/Debug/Builder.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Builder/Builder/bin/Debug/Builder.exe.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Builder/Builder/bin/Debug/Builder.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Builder/Builder/bin/Debug/Builder.vshost.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Builder/Builder/bin/Debug/Builder.vshost.exe.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Builder/Builder/bin/Debug/Builder.vshost.exe.manifest" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Builder/Builder/obj/Debug/Builder.csproj.FileListAbsolute.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Builder/Builder/obj/Debug/Builder.csprojResolveAssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Builder/Builder/obj/Debug/Builder.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Builder/Builder/obj/Debug/Builder.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Builder/Builder/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Builder/Builder/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Builder/Builder/obj/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Builder/Builder/obj/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/CommandApp/.vs/CommandApp/v14/.suo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/CommandApp/CommandApp.sln" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/CommandApp/CommandApp/App.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/CommandApp/CommandApp/CommandApp.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/CommandApp/CommandApp/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/CommandApp/CommandApp/Properties/AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/CommandApp/CommandApp/bin/Debug/CommandApp.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/CommandApp/CommandApp/bin/Debug/CommandApp.exe.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/CommandApp/CommandApp/bin/Debug/CommandApp.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/CommandApp/CommandApp/bin/Debug/CommandApp.vshost.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/CommandApp/CommandApp/bin/Debug/CommandApp.vshost.exe.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/CommandApp/CommandApp/bin/Debug/CommandApp.vshost.exe.manifest" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/CommandApp/CommandApp/obj/Debug/CommandApp.csproj.FileListAbsolute.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/CommandApp/CommandApp/obj/Debug/CommandApp.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/CommandApp/CommandApp/obj/Debug/CommandApp.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/CommandApp/CommandApp/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/CommandApp/CommandApp/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/CommandApp/CommandApp/obj/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/CommandApp/CommandApp/obj/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Composite/.vs/Composite/v14/.suo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Composite/Composite.sln" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Composite/Composite/App.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Composite/Composite/Composite.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Composite/Composite/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Composite/Composite/Properties/AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Composite/Composite/bin/Debug/Composite.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Composite/Composite/bin/Debug/Composite.exe.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Composite/Composite/bin/Debug/Composite.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Composite/Composite/bin/Debug/Composite.vshost.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Composite/Composite/bin/Debug/Composite.vshost.exe.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Composite/Composite/bin/Debug/Composite.vshost.exe.manifest" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Composite/Composite/obj/Debug/Composite.csproj.FileListAbsolute.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Composite/Composite/obj/Debug/Composite.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Composite/Composite/obj/Debug/Composite.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Composite/Composite/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Composite/Composite/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Composite/Composite/obj/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Composite/Composite/obj/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/FabricMethod/FabricMethod/.vs/FabricMethod/v14/.suo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/FabricMethod/FabricMethod/FabricMethod.sln" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/FabricMethod/FabricMethod/FabricMethod/App.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/FabricMethod/FabricMethod/FabricMethod/FabricMethod.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/FabricMethod/FabricMethod/FabricMethod/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/FabricMethod/FabricMethod/FabricMethod/Properties/AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/FabricMethod/FabricMethod/FabricMethod/bin/Debug/FabricMethod.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/FabricMethod/FabricMethod/FabricMethod/bin/Debug/FabricMethod.exe.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/FabricMethod/FabricMethod/FabricMethod/bin/Debug/FabricMethod.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/FabricMethod/FabricMethod/FabricMethod/bin/Debug/FabricMethod.vshost.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/FabricMethod/FabricMethod/FabricMethod/bin/Debug/FabricMethod.vshost.exe.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/FabricMethod/FabricMethod/FabricMethod/bin/Debug/FabricMethod.vshost.exe.manifest" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/FabricMethod/FabricMethod/FabricMethod/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/FabricMethod/FabricMethod/FabricMethod/obj/Debug/FabricMethod.csproj.FileListAbsolute.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/FabricMethod/FabricMethod/FabricMethod/obj/Debug/FabricMethod.csprojResolveAssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/FabricMethod/FabricMethod/FabricMethod/obj/Debug/FabricMethod.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/FabricMethod/FabricMethod/FabricMethod/obj/Debug/FabricMethod.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/FabricMethod/FabricMethod/FabricMethod/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/FabricMethod/FabricMethod/FabricMethod/obj/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/FabricMethod/FabricMethod/FabricMethod/obj/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Facade/.vs/Facade/v14/.suo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Facade/Facade.sln" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Facade/Facade/App.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Facade/Facade/Facade.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Facade/Facade/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Facade/Facade/Properties/AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Facade/Facade/bin/Debug/Facade.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Facade/Facade/bin/Debug/Facade.exe.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Facade/Facade/bin/Debug/Facade.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Facade/Facade/bin/Debug/Facade.vshost.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Facade/Facade/bin/Debug/Facade.vshost.exe.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Facade/Facade/bin/Debug/Facade.vshost.exe.manifest" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Facade/Facade/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Facade/Facade/obj/Debug/Facade.csproj.FileListAbsolute.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Facade/Facade/obj/Debug/Facade.csprojResolveAssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Facade/Facade/obj/Debug/Facade.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Facade/Facade/obj/Debug/Facade.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Facade/Facade/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Facade/Facade/obj/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Facade/Facade/obj/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Flyweight/.vs/Flyweight/v14/.suo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Flyweight/Flyweight.sln" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Flyweight/Flyweight/App.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Flyweight/Flyweight/Flyweight.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Flyweight/Flyweight/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Flyweight/Flyweight/Properties/AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Flyweight/Flyweight/bin/Debug/Flyweight.exe.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Flyweight/Flyweight/bin/Debug/Flyweight.vshost.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Flyweight/Flyweight/bin/Debug/Flyweight.vshost.exe.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Flyweight/Flyweight/bin/Debug/Flyweight.vshost.exe.manifest" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Flyweight/Flyweight/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Flyweight/Flyweight/obj/Debug/Flyweight.csproj.FileListAbsolute.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Flyweight/Flyweight/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Flyweight/Flyweight/obj/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Flyweight/Flyweight/obj/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Prototype/.vs/Prototype/v14/.suo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Prototype/Prototype.sln" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Prototype/Prototype/App.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Prototype/Prototype/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Prototype/Prototype/Properties/AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Prototype/Prototype/Prototype.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Prototype/Prototype/bin/Debug/Prototype.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Prototype/Prototype/bin/Debug/Prototype.exe.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Prototype/Prototype/bin/Debug/Prototype.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Prototype/Prototype/bin/Debug/Prototype.vshost.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Prototype/Prototype/bin/Debug/Prototype.vshost.exe.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Prototype/Prototype/bin/Debug/Prototype.vshost.exe.manifest" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Prototype/Prototype/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Prototype/Prototype/obj/Debug/Prototype.csproj.FileListAbsolute.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Prototype/Prototype/obj/Debug/Prototype.csprojResolveAssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Prototype/Prototype/obj/Debug/Prototype.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Prototype/Prototype/obj/Debug/Prototype.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Prototype/Prototype/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Prototype/Prototype/obj/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Prototype/Prototype/obj/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Proxy/.vs/Proxy/v14/.suo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Proxy/Proxy.sln" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Proxy/Proxy/App.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Proxy/Proxy/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Proxy/Proxy/Properties/AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Proxy/Proxy/Proxy.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Proxy/Proxy/bin/Debug/Proxy.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Proxy/Proxy/bin/Debug/Proxy.exe.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Proxy/Proxy/bin/Debug/Proxy.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Proxy/Proxy/bin/Debug/Proxy.vshost.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Proxy/Proxy/bin/Debug/Proxy.vshost.exe.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Proxy/Proxy/bin/Debug/Proxy.vshost.exe.manifest" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Proxy/Proxy/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Proxy/Proxy/obj/Debug/Proxy.csproj.FileListAbsolute.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Proxy/Proxy/obj/Debug/Proxy.csprojResolveAssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Proxy/Proxy/obj/Debug/Proxy.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Proxy/Proxy/obj/Debug/Proxy.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Proxy/Proxy/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Proxy/Proxy/obj/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Proxy/Proxy/obj/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Singleton/.vs/Singleton/v14/.suo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Singleton/Singleton.sln" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Singleton/Singleton/App.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Singleton/Singleton/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Singleton/Singleton/Properties/AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Singleton/Singleton/Singleton.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Singleton/Singleton/bin/Debug/Singleton.exe.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Singleton/Singleton/bin/Debug/Singleton.vshost.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Singleton/Singleton/bin/Debug/Singleton.vshost.exe.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Singleton/Singleton/bin/Debug/Singleton.vshost.exe.manifest" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Singleton/Singleton/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Singleton/Singleton/obj/Debug/Singleton.csproj.FileListAbsolute.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Singleton/Singleton/obj/Debug/Singleton.csprojResolveAssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Singleton/Singleton/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Singleton/Singleton/obj/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Singleton/Singleton/obj/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Wrapper/.vs/Wrapper/v14/.suo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Wrapper/Wrapper.sln" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Wrapper/Wrapper/App.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Wrapper/Wrapper/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Wrapper/Wrapper/Properties/AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Wrapper/Wrapper/Wrapper.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Wrapper/Wrapper/bin/Debug/Wrapper.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Wrapper/Wrapper/bin/Debug/Wrapper.exe.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Wrapper/Wrapper/bin/Debug/Wrapper.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Wrapper/Wrapper/bin/Debug/Wrapper.vshost.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Wrapper/Wrapper/bin/Debug/Wrapper.vshost.exe.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Wrapper/Wrapper/bin/Debug/Wrapper.vshost.exe.manifest" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Wrapper/Wrapper/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Wrapper/Wrapper/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Wrapper/Wrapper/obj/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Wrapper/Wrapper/obj/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Wrapper/Wrapper/obj/Debug/Wrapper.csproj.FileListAbsolute.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Wrapper/Wrapper/obj/Debug/Wrapper.csprojResolveAssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Wrapper/Wrapper/obj/Debug/Wrapper.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CsharpPatterns/Wrapper/Wrapper/obj/Debug/Wrapper.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab10_Facade/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab10_Facade/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab10_Facade/src/FacadeApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab10_Facade/src/FacadeApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab11_Flyweight/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab11_Flyweight/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab12_Proxy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab12_Proxy/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab13_ChainOfResponsibility/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab13_ChainOfResponsibility/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab14_Command/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab14_Command/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab15_Iterator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab15_Iterator/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab17_Memento/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab17_Memento/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab18_Observer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab18_Observer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab19_State/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab19_State/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab20_Strategy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab20_Strategy/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab21_TemplateMethod/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab21_TemplateMethod/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab3_Builder/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3_Builder/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab4_Prototype/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab4_Prototype/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab5_Composite/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab5_Composite/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab6_Singleton/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab6_Singleton/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab7_Adapter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab7_Adapter/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab8_Bridge/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab8_Bridge/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab9_Wrapper/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab9_Wrapper/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -340,9 +44,10 @@
     <session id="-743651716">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="2" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.26" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
     </session>
@@ -352,8 +57,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MediatorApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+            <state relative-caret-position="102">
+              <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -397,8 +102,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -410,13 +113,15 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557326338998" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558674318973" />
+    <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/labBD" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -458,16 +163,16 @@
       <updated>1557318757092</updated>
       <workItem from="1557318760587" duration="3678000" />
       <workItem from="1558550749609" duration="38000" />
-      <workItem from="1558551400816" duration="4000" />
+      <workItem from="1558551400816" duration="730000" />
+      <workItem from="1558674298864" duration="111000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3720000" />
+    <option name="totallyTimeSpent" value="4557000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19584244" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -513,8 +218,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/MediatorApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+        <state relative-caret-position="102">
+          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
