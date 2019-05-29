@@ -7,87 +7,112 @@ using System.Collections;
 
 namespace Flyweight
 {
-    class Program
+    public class FlyweightApp
     {
-        static void Main(string[] args)
+        public static void Main(String[] args)
         {
-            ShapeFactory shapeFactory = new ShapeFactory();
 
-            List<Shape> shapes = new List<Shape>();
-            //List<Shape> shapes = new ArrayList<>();
+            BroadcastingFactory broadcastingFactory = new BroadcastingFactory();
+            List<Broadcasting> broadcastings = new List<Broadcasting>();
 
-            shapes.Add(shapeFactory.getShape("квадрат"));
-            shapes.Add(shapeFactory.getShape("круг"));
-            shapes.Add(shapeFactory.getShape("круг"));
-            shapes.Add(shapeFactory.getShape("точка"));
-            shapes.Add(shapeFactory.getShape("квадрат"));
-            shapes.Add(shapeFactory.getShape("круг"));
+            broadcastings.Add(broadcastingFactory.getBroadcasting("video"));
+            broadcastings.Add(broadcastingFactory.getBroadcasting("advrtismnt"));
+            broadcastings.Add(broadcastingFactory.getBroadcasting("advrtismnt"));
+            broadcastings.Add(broadcastingFactory.getBroadcasting("pp"));
+            broadcastings.Add(broadcastingFactory.getBroadcasting("video"));
+            broadcastings.Add(broadcastingFactory.getBroadcasting("pp"));
 
             Random rand = new Random();
-            foreach (Shape shape in shapes)
+            foreach (Broadcasting broadcasting in broadcastings)
             {
-                int x = rand.Next(100);
-                int y = rand.Next(100);
-                shape.draw(x, y);
-            }
-        }
-    }
-
-    interface Shape
-    {
-        void draw(int x, int y);
-    }
-
-    class Point : Shape
-    {
-        public void draw(int x, int y)
-        {
-            Console.WriteLine("[" + x + ", " + y + "] : рисуем точку");
-        }
-    }
-
-    class Circle : Shape
-    {
-        int r = 5;
-        public void draw(int x, int y)
-        {
-            Console.WriteLine("[" + x + ", " + y + "] : рисуем круг радиусом " + r);
-        }
-    }
-
-    class Square : Shape
-    {
-        int a=10;
-        public void draw(int x, int y)
-        {
-            Console.WriteLine("[" + x + ", " + y + "] : рисуем квадрат со стороной " + a);
-        }
-    }
-
-    class ShapeFactory
-    {
-        //private static Map<string, Shape> shapes = new Map<string, Shape>();
-        private static Hashtable<string, Shape> shapes = new Hashtable<string, Shape>();
-        public Shape getShape(string shapeName)
-        {
-            Shape shape = shapes.Keys;
-            if (shape == null)
-            {
-                switch (shapeName)
+                int y = (rand.Next(3));
+                switch (y)
                 {
-                    case "круг":
-                        shape = new Circle();
+                    case 1:
+                        broadcasting.play("Jacobs Coffe");
                         break;
-                    case "квадрат":
-                        shape = new Square();
+                    case 2:
+                        broadcasting.play("Nescafe Coffe");
                         break;
-                    case "точка":
-                        shape = new Point();
+                    default:
+                        broadcasting.play("MacCoffe");
                         break;
                 }
-                shapes.Put(shapeName, shape);
             }
-            return shape;
+            Console.ReadKey();
         }
     }
+
+    interface Broadcasting
+    {
+        void play(String x);
+    }
+
+    class AdVideo : Broadcasting
+    {
+    int t = 30;
+    public void play(String x)
+    {
+        template.templ("рекламний відео-ролик", x, t);
+    }
+}
+
+class TVShowWthAdTM : Broadcasting
+{
+    int t = 1200;
+    public void play(String x)
+{
+    template.templ("телешоу з рекламними вставками", x, t);
+}
+}
+
+class TVShowWthPP : Broadcasting
+{
+    int t=1800;
+    public void play(String x)
+{
+    template.templ("телешоу з продукт-плейсментом", x, t);
+}
+}
+
+class BroadcastingFactory
+{
+    
+    private static Dictionary<String, Broadcasting> broadcastings = new Dictionary<String, Broadcasting>();
+    public Broadcasting getBroadcasting(String broadcastingName)
+    {
+        Broadcasting broadcasting;
+        broadcastings.TryGetValue(broadcastingName, out broadcasting);
+        if (broadcasting == null)
+        {
+            switch (broadcastingName)
+            {
+                case "video":
+                    broadcasting = new AdVideo();
+                    break;
+                case "advrtismnt":
+                    broadcasting = new TVShowWthAdTM();
+                    break;
+                case "pp":
+                    broadcasting = new TVShowWthPP();
+                    break;
+            }
+            broadcastings[broadcastingName] = broadcasting;
+        }
+        return broadcasting;
+    }
+}
+
+
+//========================================================
+class template
+{
+    public static void templ(String a, String b, int c)
+    {
+        Console.WriteLine("Відтворюється: " + a);
+        Console.WriteLine("Спонсор: " + b);
+        Console.WriteLine("Тривалість: " + c + " секунд");
+        Console.WriteLine("------------------------------");
+    }
+}
 }

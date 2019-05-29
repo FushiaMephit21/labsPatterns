@@ -6,43 +6,91 @@ using System.Threading.Tasks;
 
 namespace ChainOfResponsibilityApp
 {
-    class Program
+    // Цепочка обов'язків. Рівень доступу.
+
+    class ChainOfResponsibilityApp
     {
-        static void Main(string[] args)
+        public static void Main(String[] args)
         {
-            SMSLogger logger0 = new SMSLogger(Level.ERROR);
+            ClientUser user0 = new ClientUser(Level.ONLY_READ);
+            ModeratorUser user1 = new ModeratorUser(Level.EDITING);
+            AdminUser user2 = new AdminUser(Level.ALL);
+            user0.setNext(user1);
+            user1.setNext(user2);
+
+            user0.did("Отримати розклад реклами", Level.ONLY_READ);
+            user0.did("Редагувати розклад реклами", Level.EDITING);
+            user0.did("Видалення розкладу реклами", Level.ALL);
 
             Console.ReadKey();
         }
     }
+
     class Level
     {
-        public static readonly int ERROR = 1;
-        public static readonly int DEBUG = 2;
-        public static readonly int INFO = 3;
+        public const int ONLY_READ = 1;
+        public const int EDITING = 2;
+        public const int ALL = 3;
     }
 
-    interface Logger
+    interface User
     {
-        void writeMessage(String message, int level);
+        void did(String history, int level);
     }
 
-    class SMSLogger : Logger
+    class ClientUser : User
     {
-        int priority;
-        public SMSLogger(int priority) { this.priority = priority; }
-        Logger next;
-        public void setNext(Logger next) { this.next = next; }
-        public void writeMessage(String message, int level)
+    int accessLevel;
+    public ClientUser(int accessLevel) { this.accessLevel = accessLevel; }
+
+    User next;
+    public void setNext(User next) { this.next = next; }
+
+    public void did(String history, int level)
+    {
+        if (level <= accessLevel)
         {
-            if (level <= priority)
-            {
-                Console.WriteLine("СМС: " + message);
-            }
-            if (next == null)
-            {
-                next.writeMessage(message, level);
-            }
+            Console.WriteLine("Log Клієнта: " + history);
+        }
+        if (next != null)
+        {
+            next.did(history, level);
         }
     }
+}
+
+class ModeratorUser : User
+{
+    int accessLevel;
+    public ModeratorUser(int accessLevel) { this.accessLevel = accessLevel; }
+
+User next;
+public void setNext(User next) { this.next = next; }
+
+public void did(String history, int level)
+{
+    if (level <= accessLevel)
+    {
+        Console.WriteLine("Log Модератора: " + history);
+    }
+    if (next != null)
+    {
+        next.did(history, level);
+    }
+}
+}
+
+class AdminUser : User
+{
+    int accessLevel;
+    public AdminUser(int accessLevel) { this.accessLevel = accessLevel; }
+
+public void did(String history, int level)
+{
+    if (level <= accessLevel)
+    {
+        Console.WriteLine("Log Адміністратора: " + history);
+    }
+}
+}
 }

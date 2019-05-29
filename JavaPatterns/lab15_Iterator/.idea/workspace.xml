@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2aa161b-2f1c-42aa-b3bf-e0622f090e1f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab14_Command/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab14_Command/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab15_Iterator/Facebook.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab15_Iterator/FacebookIterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab15_Iterator/IteratorApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab15_Iterator/IteratorApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab15_Iterator/LinkedIn.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab15_Iterator/LinkedInIterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab15_Iterator/Profile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab15_Iterator/ProfileIterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab15_Iterator/SocialNetwork.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab15_Iterator/SocialSpammer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IteratorApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IteratorApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Change.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Change.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -59,7 +47,7 @@
     <session id="-532554893">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="3" />
           <entry key="project.opened" value="3" />
         </counts>
@@ -160,8 +148,8 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559156838349" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559156839536" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lab16_Mediator" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -207,12 +195,12 @@
       <workItem from="1557318694545" duration="63000" />
       <workItem from="1558550717878" duration="31000" />
       <workItem from="1558551393818" duration="6000" />
-      <workItem from="1559154134030" duration="2260000" />
+      <workItem from="1559154134030" duration="2554000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6882000" />
+    <option name="totallyTimeSpent" value="7176000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -225,7 +213,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18490154" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -236,7 +223,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32968238" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32968238" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />

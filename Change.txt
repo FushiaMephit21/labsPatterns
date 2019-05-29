@@ -1,12 +1,10 @@
 Java
 	- lab 14: Command
-	- lab 15: Iterator
 	- lab 16: Mediator
-	- lab 17: Memento
 	- lab 18: Observer
-	- lab 19: State
 	- lab 20: Strategy
 	- lab 22: Visitor
 
 C#
 	
+

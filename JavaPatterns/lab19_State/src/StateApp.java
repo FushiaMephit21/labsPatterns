@@ -1,53 +1,53 @@
 public class StateApp {
     public static void main(String[] args) {
-        Station dfm = new RadioDFM();
-        Radio radio = new Radio();
-        radio.setStation(dfm);
-        radio.play();
-        radio.nextStation();
-        radio.play();
+        Live lv = new NesCoffe();
+        TVBroadcast tvb = new TVBroadcast();
+        tvb.setLive(lv);
+        tvb.play();
+        tvb.nextLive();
+        tvb.play();
     }
 }
 
-    interface Station {
+    interface Live {
         void play();
     }
 
-    class Radio7 implements Station {
+    class Jaccobs implements Live {
         public void play() {
-            System.out.println("Радио 7...");
+            System.out.println("Реклама Jaccobs");
         }
     }
 
-    class RadioDFM implements Station {
+    class NesCoffe implements Live {
         public void play() {
-            System.out.println("Радио DFM...");
+            System.out.println("Реклама NesCoffe");
         }
     }
 
-    class VestiFM implements Station {
+    class MacCoffe implements Live {
         public void play() {
-            System.out.println("Вести FM...");
+            System.out.println("Реклама MacCoffe");
         }
     }
 
 
     //Context
-    class Radio{
-        Station station;
-        void setStation(Station st) {station = st;}
-        void nextStation(){
-            if (station instanceof Radio7) {
-                setStation(new RadioDFM());
+    class TVBroadcast{
+        Live live;
+        void setLive(Live st) {live = st;}
+        void nextLive(){
+            if (live instanceof Jaccobs) {
+                setLive(new NesCoffe());
             }
-            else if (station instanceof RadioDFM) {
-                setStation(new VestiFM());
+            else if (live instanceof NesCoffe) {
+                setLive(new MacCoffe());
             }
-            else if (station instanceof VestiFM) {
-                setStation(new Radio7());
+            else if (live instanceof MacCoffe) {
+                setLive(new Jaccobs());
             }
         }
         void play() {
-            station.play();
+            live.play();
         }
     }

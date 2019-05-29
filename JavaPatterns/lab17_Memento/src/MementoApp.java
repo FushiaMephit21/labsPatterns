@@ -1,54 +1,60 @@
 public class MementoApp {
     public static void main(String[] args) {
-        Game game = new Game();
-        game.set("LVL_1", 30000);
-        System.out.println(game);
+        TimeTableAd tta = new TimeTableAd();
+        tta.set("Lorem100", 150, 20);
+        System.out.println(tta);
 
         File file = new File();
-        file.setSave(game.save());
+        file.setBackUp(tta.backup());
 
-        game.set("LVL_2", 55000);
-        System.out.println(game);
+        tta.set("Lorem200", 300,20);
+        System.out.println(tta);
 
-        System.out.println("Загружаемся");
-        game.load(file.getSave());
-        System.out.println(game);
+        System.out.println("Завантаження");
+        tta.load(file.getBackUp());
+        System.out.println(tta);
     }
 }
 
-class Game {
-    private String level;
-    private int ms;
-    public void set(String level, int ms) {
-        this.level = level;
-        this.ms = ms;
+class TimeTableAd {
+    private String TableData;
+    private int CountRows;
+    private int CountColums;
+    public void set(String TableData, int CountRows, int CountColums) {
+        this.TableData = TableData;
+        this.CountColums = CountColums;
+        this.CountRows = CountRows;
     }
-    public void load(Save save) {
-        level = save.getLevel();
-        ms = save.getMs();
+    public void load(BackUp backup) {
+        TableData = backup.getTableData();
+        CountRows = backup.getCountRows();
+        CountColums = backup.getCountColums();
     }
-    public Save save() {
-        return new Save(level, ms);
+    public BackUp backup() {
+        return new BackUp(TableData, CountRows, CountColums);
     }
     @Override
     public String toString() {
-        return "Game [level="+level+", ms="+ms+"]";
+        return "TimeTableAd [TableData="+TableData+", CountRows="+CountRows+", CountColums="+CountColums+"]";
     }
 }
 
-class Save {
-    private final String level;
-    private final int ms;
-    public Save(String level, int ms) {
-        this.level = level;
-        this.ms = ms;
+class BackUp {
+    private final String TableData;
+    private final int CountRows;
+    private final int CountColums;
+    public BackUp(String TableData, int CountRows, int CountColums) {
+        this.TableData = TableData;
+        this.CountRows = CountRows;
+        this.CountColums = CountColums;
     }
-    public String getLevel() {return level;}
-    public int getMs() {return ms;}
+    public String getTableData() {return TableData;}
+    public int getCountRows() {return CountRows;}
+    public int getCountColums() {return CountColums;}
 }
 
 class File {
-    Save save;
-    public Save getSave() {return save;}
-    public void setSave(Save save) {this.save = save;}
+    BackUp backup;
+    public BackUp getBackUp() {return backup;}
+    public void setBackUp(BackUp backup) {this.backup = backup;}
 }

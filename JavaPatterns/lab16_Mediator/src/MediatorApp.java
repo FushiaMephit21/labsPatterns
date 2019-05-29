@@ -22,61 +22,71 @@ public class MediatorApp {
     }
 }
 
-abstract class User {
-    Chat chat;
+class Ad {
     String name;
-    boolean isEnable = true;
+    int time;
 
-    public boolean isEnable() {return isEnable;}
-    public void setEnable(boolean isEnable) {this.isEnable = isEnable;}
-
-    public User(Chat chat, String name) {this.chat = chat; this.name = name;}
-
-    public String getName() {return name;}
-
-    public void sendMessage(String message) {
-        chat.sendMessage(message, this);
+    public Ad(String name, int time) {
+        this.name=name;
+        this.time=time;
     }
 
-    abstract void getMessage(String message);
 
     @Override
     public String toString() {
-        return "User [name=" + name + "]";
+        return "Ad [name=" + name + ", time="+time+ "]";
     }
 }
 
-class Admin extends User {
-    public Admin(Chat chat, String name) {super(chat,name);}
+abstract class Button {
+    Mediator mediator;
+    String name;
 
-    public void getMessage(String message) {
-        System.out.println("Пользователь "+getName()+" плучает сообщение '"+message+"'");
+    public Button(Button button,String name) {};
+
+    String getVerb() {};
+
+}
+
+class AddAd extends Button {
+    Mediator mediator;
+    public AddAd(Button button, String name) {super(button,name);}
+
+    public String getVerb() {
+        return "Рекламу додану";
+    }
+
+    @Override
+    public void notify() {
+        mediator.notify(this.getVerb(), this);
     }
 }
 
-class SimpleUser extends User {
-    public SimpleUser(Chat chat, String name){super(chat, name);}
+class DelAd extends Button {
+    public DelAd(Button button, String name){super(button, name);}
 
-    public void getMessage(String message) {
-        System.out.println("Пользователь "+getName()+" получает ссобщение '"+message+"'");
+    public String getVerb() {
+        return "Рекламу видалено";
     }
 }
 
-interface Chat {
-    void sendMessage(String message, User user);
+class EditAd extends Button {
+    public EditAd(Button button, String name) {super(button,name);}
+
+    public String getVerb() {
+        return "Рекламу відредаговано";
+    }
 }
 
-class TextChat implements Chat {
-    User admin;
-    List<User> users = new ArrayList<>();
+interface Mediator {
+    void notify(String verb, Button button);
+}
 
-    public void setAdmin(User admin) {
-        if(admin!=null && admin instanceof Admin) {
-            this.admin = admin;
-        }
-        else {
-            throw new RuntimeException("Не хватает прав");
-        }
+class ConcreteMediator implements Mediator {
+    List<Ad> ads = new ArrayList<>();
+
+    public void reactOnAddAd() {
+
     }
 
     public void addUser(User u) {
