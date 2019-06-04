@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Lab1</title>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+	
+	<p>Перший</p>
+	<p>Другий</p>
+	<p>Третій</p>
+	<p>Четвертий</p>
+	<p>П'ятий</p>
+	<p>Шостий</p>
+	<p>Сьомий</p>
+	<p>Восьмий</p>
+	<p>Дев'ятий</p>
+	<p>Десятий</p>
+
+	<input type="button" value="Прояв" id="showP">
+
+<script>
+	$(document).ready(function(){
+		$("p").hide();
+		var count = 0;
+		$("#showP").click(function(){
+			if (count==1) {
+				$("p").hide(2000);
+				for(var i=0; i<=10; i++) {
+					if (i%2==1) {
+						$("p").eq(i).delay(2000).show(2000);
+					}
+				}
+				count=0;
+			} else {
+				$("p").hide(2000);
+				for(var i=0; i<=10; i++) {
+					if (i%2==0) {
+						$("p").eq(i).delay(2000).show(2000);
+					}
+				}
+				count=1;
+			}
+			
+		});
+	});
+</script>
+</body>
+</html>

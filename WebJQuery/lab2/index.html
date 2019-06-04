@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Lab2</title>
+	<script src="C:/Users/fushiamephit/Desktop/Soft for LEARN/JQuery Library/jquery-3.4.1.min.js"></script>
+	<style>
+		div {
+			width: 300px;
+			height: 300px;
+			display: inline-block;
+			border: 1px solid black;
+		}
+
+		
+
+		/*#div1 {background-color: #ff0;}
+
+		#div2 {background-color: #f0f;}
+
+		#div3 {background-color: #0ff;}
+
+		#div4 {background-color: #00f;}
+
+		#div5 {background-color: #f00;}*/
+
+	</style>
+	
+</head>
+<body>
+	<input type="button" id="but1" value="Почати">
+		<div id="div1"></div>
+		<div id="div2"></div>
+		<div id="div3"></div>
+		<div id="div4"></div>
+		<div id="div5"></div>
+
+<script>
+
+	function changeC() {
+		$("div").eq(0).animate({backgroundColor:"red"},500).animate({backgroundColor:"white"},500);
+	}
+
+	$(document).ready(function(){
+		$("#but1").click(function(){
+			setInterval(changeC(),1000);
+		});
+	});
+
+</script>
+</body>
+</html>
