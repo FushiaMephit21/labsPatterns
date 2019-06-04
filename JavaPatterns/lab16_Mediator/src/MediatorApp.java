@@ -1,5 +1,3 @@
-import sun.java2d.pipe.SpanShapeRenderer;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -7,10 +5,10 @@ public class MediatorApp {
     public static void main(String[] args) {
         TextChat chat = new TextChat();
 
-        User admin = new Admin(chat, "Иван Иваныч");
-        User u1 = new SimpleUser(chat, "Ваня");
-        User u2 = new SimpleUser(chat, "Вова");
-        User u3 = new SimpleUser(chat, "Саша");
+        User admin = new Admin(chat, "Корольов Максим");
+        User u1 = new Moderator(chat, "Петренко Іван");
+        User u2 = new Moderator(chat, "Кусик Олександр");
+        User u3 = new Client(chat, "Теренко Ольга");
         u2.setEnable(false);
 
         chat.setAdmin(admin);
@@ -22,83 +20,78 @@ public class MediatorApp {
     }
 }
 
-class Ad {
+abstract class User {
+    Chat chat;
     String name;
-    int time;
+    boolean isEnable = true;
+    public boolean isEnable() {return isEnable;}
+    public void setEnable(boolean isEnable) {this.isEnable = isEnable;}
 
-    public Ad(String name, int time) {
+    public User(Chat chat, String name) {
+        this.chat=chat;
         this.name=name;
-        this.time=time;
     }
 
+    public String getName() {return name;}
+    public void sendMessage(String message) {
+        chat.sendMessage(message, this);
+    }
+    abstract void getMessage(String message);
 
     @Override
     public String toString() {
-        return "Ad [name=" + name + ", time="+time+ "]";
+        return "User [name=" + name +"]";
     }
 }
 
-abstract class Button {
-    Mediator mediator;
-    String name;
-
-    public Button(Button button,String name) {};
-
-    String getVerb() {};
-
-}
-
-class AddAd extends Button {
-    Mediator mediator;
-    public AddAd(Button button, String name) {super(button,name);}
-
-    public String getVerb() {
-        return "Рекламу додану";
-    }
-
-    @Override
-    public void notify() {
-        mediator.notify(this.getVerb(), this);
+class Admin extends User {
+    public Admin(Chat chat, String name) {super(chat,name);};
+    public void getMessage(String message) {
+        System.out.println("Адміністратор "+getName()+" отримує повідомлення '"+message+"'");
     }
 }
 
-class DelAd extends Button {
-    public DelAd(Button button, String name){super(button, name);}
+class Moderator extends User {
+    public Moderator(Chat chat, String name){super(chat, name);}
 
-    public String getVerb() {
-        return "Рекламу видалено";
+    public void getMessage(String message) {
+        System.out.println("Модератор "+getName()+" отримує повідомлення '"+message+"'");
     }
 }
 
-class EditAd extends Button {
-    public EditAd(Button button, String name) {super(button,name);}
+class Client extends User {
+    public Client(Chat chat, String name) {super(chat,name);}
 
-    public String getVerb() {
-        return "Рекламу відредаговано";
+    public void getMessage(String message) {
+        System.out.println("Клієнт "+getName()+" отримує повідомлення '"+message+"'");
     }
 }
 
-interface Mediator {
-    void notify(String verb, Button button);
+interface Chat{
+    void sendMessage(String message, User user);
 }
 
-class ConcreteMediator implements Mediator {
-    List<Ad> ads = new ArrayList<>();
+class TextChat implements Chat {
+    User admin;
+    List<User> users = new ArrayList<>();
 
-    public void reactOnAddAd() {
-
+    public void setAdmin(User admin) {
+        if(admin!=null && admin instanceof Admin) {
+            this.admin = admin;
+        } else {
+            throw new RuntimeException("Не хватає прав");
+        }
     }
 
     public void addUser(User u) {
         if(admin==null) {
-            throw new RuntimeException("В чате нет админа!");
+            throw new RuntimeException("В чаті відсутній адмін!");
         }
 
-        if (u instanceof SimpleUser) {
+        if (u instanceof Moderator || u instanceof Client) {
             users.add(u);
-        }
-        else {
-            throw new RuntimeException("Админ не может вхожить в другой чат");
+        } else {
+            throw new RuntimeException("Админ не може вхоходити в інший чат");
         }
     }
 
@@ -108,7 +101,7 @@ class ConcreteMediator implements Mediator {
                 u.getMessage(user.getName()+": "+message);
             }
         }
-        if (user instanceof SimpleUser) {
+        if (user instanceof Moderator || user instanceof Client) {
             for(User u: users) {
                 if(u!=user && u.isEnable())
                     u.getMessage(user.getName()+": "+message);
