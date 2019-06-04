@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		#i1, #i2, #i3, #i4 {
+			outline: none;
+			padding: 5px;
+			width: 15px;
+			height: 15px;
+			font-size: 15px;
+		}
+
+		#ds {
+			outline: none;
+			margin-top: 5px;
+		}
+	</style>
+</head>
+<body>
+	
+	<form action="#">
+		<input id="i1" placeholder="x1" type="text">
+		<input id="i2" placeholder="y1" type="text">
+		<input id="i3" placeholder="x2" type="text">
+		<input id="i4" placeholder="y2" type="text"> <br>
+		<input id="ds" type="submit" onclick="createNewObjs()" value="Створити об'єкт">
+	</form>
+
+	<p id="res"></p>
+
+<script>
+	
+	'use strict';
+	let objs = [];
+
+	class Rectangle {
+		constructor(x1, x2, y1, y2) {
+			this.x1 = x1 || 0;
+			this.x2 = x2 || 0;
+			this.y1 = y1 || 0;
+			this.y2 = y2 || 0;
+		}
+
+		checkSquare() {
+			return (this.x2-this.x1==this.y2-this.y1) ? true : false;
+		}
+
+		diagonalRec() {
+			return Math.sqrt(Math.pow(this.x2-this.x1,2)+Math.pow(this.y2-this.y1,2));
+		}
+
+		toString() {
+			return objs.length +") "+"Квадрат: " + this.checkSquare() + "<br>" + "    Діагональ: " + this.diagonalRec() + "cm";
+		}
+	}
+
+
+	function createNewObjs() {
+		let x1 = document.getElementById('i1').value;
+		let x2 = document.getElementById('i3').value;
+		let y1 = document.getElementById('i2').value;
+		let y2 = document.getElementById('i4').value;
+
+		let res = document.getElementById('res');
+
+		objs.push(new Rectangle(x1, x2, y1, y2));
+		res.innerHTML+=objs[objs.length-1] + "<br><br>";
+	}
+
+</script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>lab2</title>
+	<style>
+		html, body {
+			overflow: hidden;
+		}
+
+		#d1 {
+			width: 600px;
+			height: 600px;
+			background-color: #f00;
+		}
+
+		#d2 {
+			width: 400px;
+			height: 400px;
+			background-color: #0f0;
+		}
+
+		#d3 {
+			width: 200px;
+			height: 200px;
+			background-color: #00f;
+		}
+
+	</style>
+</head>
+<body>
+	
+	<div id="d1">
+		<div id="d2">
+			<div id="d3"></div>
+		</div>
+	</div>
+
+<script>
+	
+	function cD(e) {
+		alert(this.id);
+		e.stopPropagation();
+	}
+
+	var dd1 = document.getElementById("d1");
+	var dd2 = document.getElementById("d2");
+	var dd3 = document.getElementById("d3");
+
+	dd1.addEventListener("click", cD);
+	dd2.addEventListener("click", cD);
+	dd3.addEventListener("click", cD);
+
+
+</script>
+</body>
+</html>

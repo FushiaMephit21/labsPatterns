@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+
+		html, body {
+			overflow: hidden;
+		}
+
+		div {
+			border: 1px solid black;
+			width: 245px;
+			height: 245px;
+			overflow: hidden;
+
+		}
+
+		#imgS {
+			transition: 1s;
+		}
+
+	</style>
+</head>
+<body>
+	
+	<div>
+		<img id="imgS" src="1sc.jpg">
+	</div>
+
+<script>
+	window.onload = function() {
+		var count = 0;
+		setInterval( function(){
+			var imgS = document.getElementById("imgS");
+   			var s = getComputedStyle(imgS);
+   			count++;
+   			if (count!=5) {
+   				imgS.style.marginLeft = parseInt(s.marginLeft) - 240 + "px";
+   			} else {
+   				imgS.style.marginLeft = parseInt(s.marginLeft) + 960 + "px";
+   				count = 0;
+   			}
+		}, 2500, count);
+	}
+</script>
+</body>
+</html>

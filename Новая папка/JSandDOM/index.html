@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	
+	<input id="checkColor" type="checkbox" checked> Автоматично обирати колір <br>
+	<button onclick="setColor()" id="_color">Змінити колір</button>
+	<button onclick="createO()">Створити об'єкт</button>
+
+	<p id="res"></p>
+
+<script>
+
+	var res = document.getElementById("res");
+	var o = [];
+
+	function setColor() {
+		let checkC = document.getElementById('checkColor').checked;
+		if (checkC==true) {
+			var letters = '0123456789ABCDEF';
+			var color = '#';
+			for (var i = 0; i < 6; i++) {
+				color += letters[Math.floor(Math.random() * 15 + 1)];
+			}
+			res.style.color = color;
+		} else {
+			res.style.color = prompt('Past the color');
+		}
+	}
+
+	function checkOnes(num , type) {
+			if (num==1 || num==21 || num==31 || num==41 || num==51) {
+				return num +" "+((type=="h") ? "година" : ((type=="m") ? "хвилина" : "секунда"));
+			} else { 
+				return num +" "+((type=="h") ? "годин" : ((type=="m") ? "хвилин" : "секунд")); 
+			}
+		}
+	
+	class Time {
+		constructor(hour, minute, second) {
+			this.hour = hour || 16;
+			this.minute = minute || 18;
+			this.second = second || 3;
+			this._color = "black";
+		}
+
+		getHour() {
+			return this.hour;
+		}
+		setHour(hour) {
+			this.hour = (hour>0 && hour<24) ? hour : 16;
+		}
+
+		getMinute() {
+			return this.minute;
+		}
+		setMinute(minute) {
+			this.minute = (minute>0 && minute<60) ? minute : 18;
+		}
+
+		getSecond() {
+			return this.second;
+		}
+		setSecond(second) {
+			this.second = (second>0 && second<60) ? second : 3;
+		}
+
+		printPattern() {
+			return checkOnes(this.hour, "h") +" "+ checkOnes(this.minute, "m") +" "+checkOnes(this.second, "")+"<br>";
+		}
+
+		printStandart() {
+			return ((this.hour>12) ? this.hour-12+" p.m" : this.hour+" a.m") +" "+checkOnes(this.minute, "m")+" "+checkOnes(this.second, "")+"<br><br>";
+		}
+	}
+
+	function createO() {
+		let i1 = Math.round(Math.random() * 23 + 1);
+		let i2 = Math.round(Math.random() * 58 + 1);
+		let i3 = Math.round(Math.random() * 58 + 1);
+		o.push(new Time(i1, i2, i3));
+		res.innerHTML+=(o[o.length-1].printPattern());
+		res.innerHTML+=(o[o.length-1].printStandart());
+	}
+
+</script>
+</body>
+</html>

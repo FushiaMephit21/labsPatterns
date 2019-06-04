@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>lab1</title>
+	<style>
+		html {
+			margin: 0;
+			overflow: hidden;
+		}
+		body {
+			height: 100vh;
+		}
+
+		* {
+			outline: none;
+		}
+
+		#Isquare {
+			width: 160px;
+			height: 160px;
+			border: 2px solid black;
+			position: absolute;
+			transform: rotate(-0deg);
+		}
+
+		#planeImg {
+			width: inherit;
+			height: inherit;
+			position: absolute;
+		}
+
+		button {
+			margin-top: 3px;
+			margin-left: 3px;
+		}
+
+		.r {
+			font-size: 10px;
+			margin: 0px;
+		}
+
+		#irx, #iry, #irz {
+			width: 20px;
+		}
+
+	</style>
+</head>
+<body>
+	<input onclick="changeColor()" id="rangeR" type="range" min="0" max="255" step="1"> <br>
+	<input onclick="changeColor()" id="rangeG" type="range" min="0" max="255" step="1"> <br>
+	<input onclick="changeColor()" id="rangeB" type="range" min="0" max="255" step="1"> <br>
+	<button onclick="IncreasePlane()">+</button>
+	<button onclick="ReducePlane()">-</button> <br>
+
+	<input id="irx" onclick="clearIR(this)" onkeydown="pasteIRX()" type="text">
+	<button class="r" onclick="RotateXP()">+</button>
+	<button class="r" onclick="RotateXM()">-</button>
+	<br>
+	<input id="iry" onclick="clearIR(this)" onkeydown="pasteIRY()"  type="text">
+	<button class="r" onclick="RotateYP()">+</button>
+	<button class="r" onclick="RotateYM()">-</button>
+	<br>
+	<input id="irz" onclick="clearIR(this)" onkeydown="pasteIRZ()" type="text">
+	<button class="r" onclick="RotateZP()">+</button>
+	<button class="r" onclick="RotateZM()">-</button>
+	<br>
+
+	<div id="Isquare">
+		<svg>
+			<polyline id="planeImg" points="80,10 95,55 150,75 160,85 90,80 85,122 105,130 110,150 80,142 50,150 55,130 75,122 70,80 0,85 10,75 65,55 80,10" stroke-width="1" stroke="rgb(0,0,0)"/>
+		</svg>
+	</div>
+
+<script>
+
+	let planeD = document.getElementById('Isquare');
+
+	function moveSquare(e) {
+		let isquare = document.getElementById("Isquare");
+
+		let left = parseInt(window.getComputedStyle(isquare).marginLeft);
+		let top = parseInt(window.getComputedStyle(isquare).marginTop);
+		let planeWidth = parseInt(window.getComputedStyle(isquare).width);
+
+
+		if (e.keyCode==37) { // left
+			if(left>0)
+					isquare.style.marginLeft = left - 15 + "px";
+		} else if (e.keyCode==38) { // up
+			if(top>0)
+					isquare.style.marginTop = top - 15 + "px";
+		} else if (e.keyCode==39) { //right
+			if(left < document.documentElement.clientWidth - planeWidth - 14)
+					isquare.style.marginLeft = left + 15 + "px";
+		} else if (e.keyCode==40) { //down
+			if(top < document.documentElement.clientHeight - planeWidth - 88)
+					isquare.style.marginTop = top + 15 + "px";
+		} else if (e.keyCode==38 && e.keyCode==37) { // up && left
+			if(left>0 && top>0) {
+				isquare.style.marginLeft = left - 15 + "px";
+				isquare.style.marginTop = top - 15 + "px";
+			}
+		} else if (e.keyCode==38 && e.keyCode==39) { // up && right
+			if (top>0 && left < document.documentElement.clientWidth - planeWidth - 14) {
+				isquare.style.marginTop = top - 15 + "px";
+				isquare.style.marginLeft = left + 15 + "px";
+			}
+		} else if (e.keyCode==40 && e.keyCode==37) { // down && left
+			if (left>0 && top < document.documentElement.clientHeight - planeWidth - 88) {
+				isquare.style.marginLeft = left - 15 + "px";
+				isquare.style.marginTop = top + 15 + "px";
+			}
+		} else if (e.keyCode==40 && e.keyCode==39) { // down && right
+			if(left < document.documentElement.clientWidth - planeWidth - 14 && top < document.documentElement.clientHeight - planeWidth - 88) {
+				isquare.style.marginTop = top + 15 + "px";
+				isquare.style.marginLeft = left + 15 + "px";
+			}
+		}
+		
+	}
+	addEventListener("keydown", moveSquare);
+
+	let countY = 0;
+	let countX = 0;
+	let countZ = 0;
+	let countR = 1;
+	let multiply = 10;
+	let irx = document.getElementById("irx").value;
+	let iry = document.getElementById("iry").value;
+	let irz = document.getElementById("irz").value;
+	function RotateXP() {
+		countX+=multiply;
+		planeD.style.transform = "rotateX("+countX+"deg)";
+		irx=countX;
+	}
+	function RotateXM() {
+		countX-=multiply;
+		planeD.style.transform = "rotateX("+countX+"deg)";
+		irx = countX;
+	}
+	function RotateYP() {
+		countY+=multiply;
+		planeD.style.transform = "rotateY("+countY+"deg)";
+		iry = countY;
+	}
+	function RotateYM() {
+		countY-=multiply;
+		planeD.style.transform = "rotateY("+countY+"deg)";
+		iry = countY;
+	}
+	function RotateZP() {
+		countZ+=multiply;
+		planeD.style.transform = "rotateZ("+countZ+"deg)";
+		irz = countZ;
+	}
+	function RotateZM() {
+		countZ-=multiply;
+		planeD.style.transform = "rotateZ("+countZ+"deg)";
+		irz = countZ;
+	}
+	function pasteIRX() {
+		countX = irx;
+		planeD.style.transform = "rotateX("+countX+"deg)";
+	}
+	function pasteIRY() {
+		countY = iry;
+		planeD.style.transform = "rotateY("+countY+"deg)";
+	}
+	function pasteIRZ() {
+		countZ = irz;
+		planeD.style.transform = "rotateZ("+countZ+"deg)";
+	}
+	function clearIR(item) {
+		item.value="";
+		switch (item.id) {
+			case "irx":
+				countX=0;
+				planeD.style.transform = "rotateX("+countX+"deg)";
+				break;
+			case "iry":
+				countY=0;
+				planeD.style.transform = "rotateY("+countY+"deg)";
+				break;
+			case "irz":
+				countZ=0;
+				planeD.style.transform = "rotateZ("+countZ+"deg)";
+				break;
+			default:
+				break;
+		}
+	}
+
+	function IncreasePlane() {
+		countR+=0.1;
+		planeD.style.transform = "scale("+countR+","+countR+")";
+	}
+
+	function ReducePlane() {
+		countR-=0.1;
+		planeD.style.transform = "scale("+countR+","+countR+")";
+	}
+
+
+	function changeColor() {
+	let cR = document.getElementById("rangeR");
+	let cG = document.getElementById("rangeG");
+	let cB = document.getElementById("rangeB");
+		let planeS = document.getElementById("planeImg");
+
+		let setA = "rgb("+cR.value+","+cG.value+","+cB.value+")";
+		planeS.setAttribute("fill", setA);
+
+	}
+
+</script>
+</body>
+</html>
